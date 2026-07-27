@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { getWhatsAppLink } from '@/lib/whatsapp'
+import { getImageUrl } from '@/lib/utils'
 
 export function Hero() {
   const whatsappUrl = getWhatsAppLink('Hello Hotel Sky Palace, I would like to book a Deluxe AC Room at your Shamshabad, Hyderabad property.')
@@ -7,8 +8,8 @@ export function Hero() {
   return (
     <section id="top" className="relative flex min-h-svh items-center pt-16">
       <Image
-        src="/images/room-1.png"
-        alt=""
+        src={getImageUrl('/images/room-1.png')}
+        alt="Hotel Sky Palace Room Background"
         fill
         priority
         className="object-cover"

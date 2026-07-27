@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { AirVent, BedDouble, Check, Tv, Users, Wifi } from 'lucide-react'
 import { getWhatsAppLink } from '@/lib/whatsapp'
+import { getImageUrl } from '@/lib/utils'
 
 const features = [
   { icon: AirVent, label: 'Air Conditioned' },
@@ -42,7 +43,7 @@ export function RoomSection() {
       <div className="grid items-center gap-10 lg:grid-cols-2">
         <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
           <Image
-            src="/images/room-3.png"
+            src={getImageUrl('/images/room-3.png')}
             alt="Deluxe AC Room with king-size bed, wooden ceiling, and marble flooring"
             fill
             className="object-cover"

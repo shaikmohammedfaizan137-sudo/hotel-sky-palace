@@ -1,23 +1,24 @@
 import Image from 'next/image'
+import { getImageUrl } from '@/lib/utils'
 
 const photos = [
   {
-    src: '/images/room-1.png',
+    src: getImageUrl('/images/room-1.png'),
     alt: 'Deluxe AC Room with double bed, cane chairs, and marble flooring',
     className: 'md:col-span-2',
   },
   {
-    src: '/images/corridor.png',
+    src: getImageUrl('/images/corridor.png'),
     alt: 'Marble corridor with wooden ceiling and green plants',
     className: 'md:row-span-2',
   },
   {
-    src: '/images/room-2.png',
+    src: getImageUrl('/images/room-2.png'),
     alt: 'Deluxe AC Room with decorated bed and seating area',
     className: '',
   },
   {
-    src: '/images/room-3.png',
+    src: getImageUrl('/images/room-3.png'),
     alt: 'Deluxe AC Room with king-size bed and dressing area',
     className: '',
   },
@@ -39,7 +40,7 @@ export function Gallery() {
         <div className="grid gap-4 md:grid-cols-3 md:grid-rows-2">
           {photos.map((photo) => (
             <div
-              key={photo.src}
+              key={photo.alt}
               className={`relative min-h-64 overflow-hidden rounded-xl ${photo.className}`}
             >
               <Image

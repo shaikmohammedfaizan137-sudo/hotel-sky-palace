@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { getWhatsAppLink } from '@/lib/whatsapp'
+import { getImageUrl } from '@/lib/utils'
 
 const navLinks = [
   { href: '#room', label: 'Rooms' },
@@ -22,7 +23,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
         <Link href="#top" className="flex items-center gap-3">
           <Image
-            src="/images/logo.png"
+            src={getImageUrl('/images/logo.png')}
             alt="Hotel Sky Palace logo"
             width={40}
             height={40}

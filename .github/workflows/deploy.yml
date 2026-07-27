@@ -33,7 +33,9 @@ jobs:
         run: npm install
 
       - name: Build Next.js static site
-        run: npm run build
+        run: |
+          npm run build
+          touch ./out/.nojekyll
         env:
           NODE_ENV: production
 

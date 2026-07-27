@@ -1,11 +1,12 @@
 import Image from 'next/image'
+import { getImageUrl } from '@/lib/utils'
 
 export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-card/30">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 py-10 text-center md:px-6">
         <Image
-          src="/images/logo.png"
+          src={getImageUrl('/images/logo.png')}
           alt="Hotel Sky Palace logo"
           width={64}
           height={64}
