@@ -1,0 +1,2 @@
+:HL["/hotel-sky-palace/_next/static/chunks/130my1e8o.3c6.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"a4knF5Gq2yDFo4V1VZI9p"}

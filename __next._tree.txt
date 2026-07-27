@@ -1,0 +1,4 @@
+:HL["/hotel-sky-palace/_next/static/chunks/130my1e8o.3c6.css","style"]
+:HL["/hotel-sky-palace/_next/static/media/75affa71d1e2f6a7-s.p.0e5c5_wyqqx75.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hotel-sky-palace/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"a4knF5Gq2yDFo4V1VZI9p"}
