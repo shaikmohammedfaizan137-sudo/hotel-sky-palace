@@ -6,6 +6,8 @@ import { RoomSection } from '@/components/room-section'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
 import { MobileStickyBar } from '@/components/mobile-sticky-bar'
+import { BookingCalculator } from '@/components/booking-calculator'
+import { FAQ } from '@/components/faq'
 
 export default function Page() {
   return (
@@ -14,8 +16,10 @@ export default function Page() {
       <main className="pb-16 md:pb-0">
         <Hero />
         <RoomSection />
+        <BookingCalculator />
         <Gallery />
         <Amenities />
+        <FAQ />
         <ContactSection />
       </main>
       <SiteFooter />
