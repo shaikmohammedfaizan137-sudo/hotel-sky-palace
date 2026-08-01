@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     'Hotel Sky Palace offers spacious Deluxe AC Rooms with premium comfort. Single occupancy Rs. 2,000, double occupancy Rs. 2,500 per night. Book your stay today.',
   generator: 'v0.app',
   icons: {
-    icon: [{ url: '/hotel-sky-palace/images/logo.png' }],
-    apple: '/hotel-sky-palace/images/logo.png',
+    icon: [{ url: '/images/logo.png' }],
+    apple: '/images/logo.png',
   },
   openGraph: {
     title: 'Hotel Sky Palace | Luxury Rooms',

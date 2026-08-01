@@ -8,7 +8,5 @@ export function cn(...inputs: ClassValue[]) {
 export function getImageUrl(path: string): string {
   if (!path) return ''
   if (path.startsWith('http') || path.startsWith('https')) return path
-  const cleanPath = path.startsWith('/') ? path : `/${path}`
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
-  return `${basePath}${cleanPath}`
+  return path.startsWith('/') ? path : `/${path}`
 }
